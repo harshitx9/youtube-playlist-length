@@ -1,0 +1,93 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.header{
+  width: 100%;
+  height: 125px;
+  /* border: 1px solid salmon; */
+}
+
+.bspace{
+  width: 1430px;
+  height: 72px;
+  text-align:center;
+  margin-left: -322px;
+}
+
+.bspace2{
+  width: 1430px;
+  height:36px;
+  text-align: center;
+  /* border: 1px solid sienna; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-left: -125px;
+}
+.text-bspace{
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.ytpllLogo{
+  vertical-align: middle;
+}
+
+.container{
+  width: 1430px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;  
+}
+
+form.example input[type=text]{
+  /* position: "absolute"; */
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  font-size: 16px;
+  border: 0px solid rgb(170, 170, 170);
+  width: 800px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  box-align: center;
+  margin: auto;
+}
+
+.button {
+  margin-right: 30px;
+  font-family: "Open Sans", sans-serif;
+  width: 100px;
+  height: 40px;
+  border: 0px solid grey;
+  background: #61c554;
+  color: black;
+  font-size: 100%;
+  text-align: center;
+  border-left: none; 
+  border-radius: 30px;
+  cursor: pointer;
+
+  margin: auto;
+}
+
+.data{
+  width: 100%;
+  height: 440px;
+  /* border: 2px solid green; */
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form.example button:hover {
+  background: #61c554;
+}
+
+.footer{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 72px;
+  /* border: 2px solid green; */
+}

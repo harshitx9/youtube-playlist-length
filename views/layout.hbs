@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YouTube Playlist Length</title>
+
+    <link rel="shortcut icon" href="../public/images/favicon.ico">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color:rgb(249, 238, 206);">
+
+    <div class="header">
+        <span class="ytpllLogo">
+            <a href="https://youtubeplaylistlength.com">
+                <img src="../images/Logo.png" alt="Playlist Length" width="150" height="100" vspace="12px" hspace="25px"
+                    style="float: left">
+            </a>
+        </span>
+
+        <span class="githubLogo">
+            <a href="https://github.com/harshitx9/youtube-playlist-length">
+                <img src="../images/GithubLogo.png" alt="Source Code" width="70" height="70" vspace="22px" hspace="45px"
+                    style="float: right">
+            </a>
+        </span>
+    </div>
+    <div class="bspace">
+        <span class="text-bspace">
+            <br> <br>
+            <strong>Find the length of YouTube Playlist:</strong></p>
+        </span>
+    </div>
+
+    <div class="container form-plus-button">
+        <span class="form-and-button">
+            <form class="example rounded-pill" method="POST" action="/">
+                <input type="text" name="tstr" placeholder="youtube.com/playlist?list=ID" required>
+        </span>
+        <span class="form-and-button">
+            <button class="button" type="submit">Get Length</button>
+        </span>
+        </form>
+    </div>
+
+    <div class="bspace2">
+        Enter a playlist link, playlist ID or even a video link from the playlist. Works for any number of videos! 🙂
+    </div>
+    <div class="data">
+        <div style="display: inline-block; text-align: left;">
+            <br><br><br>
+            {{punchline}}
+            <br><br>
+            {{hcount}}
+            <br><br>
+            {{haverage}}
+            <br><br>
+            {{h25x}}
+            <br><br>
+            {{h50x}}
+            <br><br>
+            {{h75x}}
+            <br><br>
+            {{h00x}}
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            From India with ❤︎ by, <a href="https://harshrajput.in/" target="_blank"
+                style="text-decoration: none ;">Harsh
+                Rajput</a>
+        </div>
+        <div>
+            <span>
+
+                <a href="https://www.buymeacoffee.com/harshrajput" target="_blank" style="text-decoration: none">
+                    Support Me</a>
+            </span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
